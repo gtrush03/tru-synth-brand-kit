@@ -1,0 +1,161 @@
+@import "tailwindcss";
+@config "./tailwind.config.js";
+
+/* Database Animation Styles */
+.database {
+  offset-anchor: 10px 0px;
+  animation: database-animation-path;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+
+.db-light-1 {
+  offset-path: path("M 31 10 v 15 q 0 5 5 5 h 59 q 5 0 5 5 v 25");
+}
+
+.db-light-2 {
+  offset-path: path("M 77 10 v 10 q 0 5 5 5 h 13 q 5 0 5 5 v 25");
+}
+
+.db-light-3 {
+  offset-path: path("M 124 10 v 10 q 0 5 -5 5 h -14 q -5 0 -5 5 v 25");
+}
+
+.db-light-4 {
+  offset-path: path("M 170 10 v 15 q 0 5 -5 5 h -60 q -5 0 -5 5 v 25");
+}
+
+@keyframes database-animation-path {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+/* Ontology particle animations removed — static lines only */
+
+/* ==========================================================================
+   SVG Visual Animations - GPU Composited (replaces SMIL)
+   ========================================================================== */
+
+/* --- Rotation --- */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spin-reverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+/* --- Float (upward drift) --- */
+@keyframes float-up {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
+
+@keyframes float-up-3 {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+/* --- Float (downward drift) --- */
+@keyframes float-down {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(2px); }
+}
+
+/* --- Foundry module-specific floats --- */
+@keyframes foundry-float-bottom {
+  0%, 100% { transform: translateY(20px); }
+  50% { transform: translateY(25px); }
+}
+
+@keyframes foundry-float-middle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
+
+@keyframes foundry-float-top {
+  0%, 100% { transform: translateY(-20px); }
+  50% { transform: translateY(-25px); }
+}
+
+/* --- Opacity pulsing --- */
+@keyframes pulse-opacity {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes pulse-glow-strong {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+@keyframes pulse-nucleus {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+/* LED blink (fast pulsing for server status lights) */
+@keyframes blink-led {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+/* --- GovVisual data packet animations (offset-path based) --- */
+@keyframes gov-packet-mil {
+  0% { offset-distance: 0%; }
+  100% { offset-distance: 100%; }
+}
+
+@keyframes gov-packet-health {
+  0% { offset-distance: 0%; }
+  100% { offset-distance: 100%; }
+}
+
+/* ==========================================================================
+   END SVG Visual Animations
+   ========================================================================== */
+
+/* Fade Slide In Animations - Initial State */
+.animate-fade-slide-in-1,
+.animate-fade-slide-in-2,
+.animate-fade-slide-in-3,
+.animate-fade-slide-in-4 {
+  opacity: 0;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Product Card gold shine sweep */
+@keyframes shine {
+  0%, 100% { background-position: 200% 0; }
+  50% { background-position: -200% 0; }
+}
+
+/* Metallic border shimmer — travels around the card edge */
+@keyframes border-shimmer {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 200% 200%; }
+  100% { background-position: 0% 0%; }
+}

@@ -1,0 +1,131 @@
+<svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDEEC9"/>
+      <stop offset="50%" stop-color="#B4A582"/>
+      <stop offset="100%" stop-color="#928466"/>
+    </linearGradient>
+    <linearGradient id="goldGradientDiag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDEEC9"/>
+      <stop offset="100%" stop-color="#B4A582"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+      <feOffset dx="0" dy="1" result="offsetblur"/>
+      <feFlood flood-color="rgba(0,0,0,0.3)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="central-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="1" stdDeviation="3.5" flood-color="#B4A582" flood-opacity="0.6" result="glow"/>
+      <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="rgba(0,0,0,0.15)" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Layer 1: Mesh Connections (between outer nodes) -->
+  <g id="mesh-connections" stroke="#A89A7A" stroke-width="0.7" fill="none" opacity="0.5">
+    <!-- Outer ring connections -->
+    <path id="mesh-1" d="M 28,6 Q 42,5 47,14" />
+    <path id="mesh-2" d="M 47,14 Q 52,28 47,42" />
+    <path id="mesh-3" d="M 47,42 Q 42,51 28,50" />
+    <path id="mesh-4" d="M 28,50 Q 14,51 9,42" />
+    <path id="mesh-5" d="M 9,42 Q 4,28 9,14" />
+    <path id="mesh-6" d="M 9,14 Q 14,5 28,6" />
+    <!-- Diagonal cross connections -->
+    <path id="mesh-7" d="M 28,6 Q 45,20 47,42" />
+    <path id="mesh-8" d="M 47,14 Q 45,36 28,50" />
+    <path id="mesh-9" d="M 47,42 Q 28,35 9,14" />
+    <path id="mesh-10" d="M 28,50 Q 11,36 9,14" />
+    <path id="mesh-11" d="M 9,42 Q 11,20 28,6" />
+    <path id="mesh-12" d="M 9,14 Q 28,21 47,42" />
+    <!-- Animated dots on mesh -->
+    <circle r="0.8" fill="#B4A582" opacity="0.9">
+      <animateMotion dur="6s" repeatCount="indefinite" begin="0s"><mpath xlink:href="#mesh-1"/></animateMotion>
+    </circle>
+    <circle r="0.8" fill="#B4A582" opacity="0.9">
+      <animateMotion dur="7s" repeatCount="indefinite" begin="-2s"><mpath xlink:href="#mesh-3"/></animateMotion>
+    </circle>
+    <circle r="0.8" fill="#B4A582" opacity="0.9">
+      <animateMotion dur="8s" repeatCount="indefinite" begin="-1.5s"><mpath xlink:href="#mesh-7"/></animateMotion>
+    </circle>
+    <circle r="0.8" fill="#B4A582" opacity="0.9">
+      <animateMotion dur="7.5s" repeatCount="indefinite" begin="-4s"><mpath xlink:href="#mesh-10"/></animateMotion>
+    </circle>
+    <circle r="0.8" fill="#B4A582" opacity="0.9">
+      <animateMotion dur="6.5s" repeatCount="indefinite" begin="-5s"><mpath xlink:href="#mesh-5"/></animateMotion>
+    </circle>
+  </g>
+
+  <!-- Layer 2: Primary Connections (to center) -->
+  <g id="primary-connections">
+    <path id="p1" d="M 28,6 Q 38,17 28,28" stroke="url(#goldGradientDiag)" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <path id="p2" d="M 47,14 Q 45,21 28,28" stroke="url(#goldGradientDiag)" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <path id="p3" d="M 47,42 Q 45,35 28,28" stroke="url(#goldGradientDiag)" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <path id="p4" d="M 28,50 Q 18,39 28,28" stroke="url(#goldGradientDiag)" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <path id="p5" d="M 9,42 Q 11,35 28,28" stroke="url(#goldGradientDiag)" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <path id="p6" d="M 9,14 Q 11,21 28,28" stroke="url(#goldGradientDiag)" stroke-width="1.2" fill="none" opacity="0.8"/>
+    <!-- Animated dots flowing to center -->
+    <circle r="1" fill="#B4A582"><animateMotion dur="3s" repeatCount="indefinite"><mpath xlink:href="#p1"/></animateMotion></circle>
+    <circle r="1" fill="#B4A582"><animateMotion dur="2.8s" repeatCount="indefinite" begin="-0.5s"><mpath xlink:href="#p2"/></animateMotion></circle>
+    <circle r="1" fill="#B4A582"><animateMotion dur="3.2s" repeatCount="indefinite" begin="-1s"><mpath xlink:href="#p3"/></animateMotion></circle>
+    <circle r="1" fill="#B4A582"><animateMotion dur="2.6s" repeatCount="indefinite" begin="-1.5s"><mpath xlink:href="#p4"/></animateMotion></circle>
+    <circle r="1" fill="#B4A582"><animateMotion dur="3.4s" repeatCount="indefinite" begin="-2s"><mpath xlink:href="#p5"/></animateMotion></circle>
+    <circle r="1" fill="#B4A582"><animateMotion dur="2.9s" repeatCount="indefinite" begin="-2.5s"><mpath xlink:href="#p6"/></animateMotion></circle>
+  </g>
+
+  <!-- Layer 3: Source Nodes -->
+  <g id="source-nodes">
+    <!-- Node 1: Top (28, 6) - User icon -->
+    <g>
+      <circle cx="28" cy="6" r="5" fill="url(#goldGradient)" stroke="white" stroke-width="0.5" filter="url(#dropShadow)"/>
+      <circle cx="28" cy="4.5" r="1.5" stroke="white" stroke-width="0.8" fill="none"/>
+      <path d="M 26 7.5 Q 28 6.5 30 7.5 C 30 9.5 26 9.5 26 7.5 Z" stroke="white" stroke-width="0.8" fill="none"/>
+    </g>
+    <!-- Node 2: Top-Right (47, 14) - Grid icon -->
+    <g>
+      <circle cx="47" cy="14" r="5" fill="url(#goldGradient)" stroke="white" stroke-width="0.5" filter="url(#dropShadow)"/>
+      <path d="M 44.5 11.5 H 49.5 V 16.5 H 44.5 Z M 47 11.5 V 16.5 M 44.5 14 H 49.5" stroke="white" stroke-width="0.8" fill="none"/>
+    </g>
+    <!-- Node 3: Bottom-Right (47, 42) - Email icon -->
+    <g>
+      <circle cx="47" cy="42" r="5" fill="url(#goldGradient)" stroke="white" stroke-width="0.5" filter="url(#dropShadow)"/>
+      <path d="M 44.5 39.5 H 49.5 V 44.5 H 44.5 Z M 44.5 39.5 L 47 42 L 49.5 39.5" stroke="white" stroke-width="0.8" fill="none"/>
+    </g>
+    <!-- Node 4: Bottom (28, 50) - Document icon -->
+    <g>
+      <circle cx="28" cy="50" r="5" fill="url(#goldGradient)" stroke="white" stroke-width="0.5" filter="url(#dropShadow)"/>
+      <path d="M 25 46.5 V 53.5 H 31 V 48.5 L 29 46.5 Z M 29 46.5 L 31 48.5 M 26 49.5 H 30 M 26 51.5 H 30" stroke="white" stroke-width="0.8" fill="none"/>
+    </g>
+    <!-- Node 5: Bottom-Left (9, 42) - Dollar icon -->
+    <g>
+      <circle cx="9" cy="42" r="5" fill="url(#goldGradient)" stroke="white" stroke-width="0.5" filter="url(#dropShadow)"/>
+      <path d="M 9 39 V 45 M 7 40.5 C 7 40 8 39.5 9 39.5 C 10 39.5 11 40 11 41 C 11 42 10 42.5 9 42.5 C 8 42.5 7 43 7 44 C 7 44.5 8 45 9 45 C 10 45 11 44.5 11 44" stroke="white" stroke-width="0.8" fill="none"/>
+    </g>
+    <!-- Node 6: Top-Left (9, 14) - Card icon -->
+    <g>
+      <circle cx="9" cy="14" r="5" fill="url(#goldGradient)" stroke="white" stroke-width="0.5" filter="url(#dropShadow)"/>
+      <path d="M 6 11.5 H 12 V 16.5 H 6 Z M 6 13.5 H 12" stroke="white" stroke-width="0.8" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Layer 4: Central Entity -->
+  <g id="central-entity">
+    <g filter="url(#central-glow)">
+      <rect x="18" y="18" width="20" height="20" rx="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+      <rect x="18.5" y="18.5" width="19" height="19" rx="4.5" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="0.5"/>
+    </g>
+    <!-- Checkmark - centered at (28,28) -->
+    <path d="M 23 28 L 26.5 31.5 L 33 25" fill="none" stroke="url(#goldGradient)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

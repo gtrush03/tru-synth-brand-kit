@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>TRU SYNTH | Intelligent Solutions</title>
+  <meta name="description" content="TRU SYNTH builds autonomous agent infrastructure for enterprises. Deploy AI-powered spend intelligence, agentic operating systems, and production-ready tools." />
+  <meta property="og:title" content="TRU SYNTH | Intelligent Solutions" />
+  <meta property="og:description" content="TRU SYNTH builds autonomous agent infrastructure for enterprises. Deploy AI-powered spend intelligence, agentic operating systems, and production-ready tools." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://trusynthnew.vercel.app" />
+  <meta property="og:image" content="https://trusynthnew.vercel.app/og-image.png" />
+  <meta property="og:site_name" content="TRU SYNTH" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TRU SYNTH | Intelligent Solutions" />
+  <meta name="twitter:description" content="TRU SYNTH builds autonomous agent infrastructure for enterprises. Deploy AI-powered spend intelligence, agentic operating systems, and production-ready tools." />
+  <meta name="twitter:image" content="https://trusynthnew.vercel.app/og-image.png" />
+  <link rel="canonical" href="https://trusynthnew.vercel.app" />
+  <meta name="theme-color" content="#050505" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "TRU SYNTH",
+    "url": "https://trusynthnew.vercel.app",
+    "description": "Autonomous agent infrastructure for enterprises"
+  }
+  </script>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preload" href="https://i.imgur.com/p6POhEa.png" as="image">
+  <script src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.5.2/dist/unicornStudio.umd.js" async></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <style>
+    /* Global overscroll and touch behavior */
+    html {
+      position: fixed;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      height: 100dvh;
+      height: -webkit-fill-available;
+      overscroll-behavior: none;
+    }
+
+    body {
+      background-color: #050505;
+      color: white;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      height: 100dvh;
+      height: -webkit-fill-available;
+      overscroll-behavior: none;
+      overscroll-behavior-y: contain;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-x pan-y;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Prevent pull-to-refresh on iOS */
+    @supports (-webkit-touch-callout: none) {
+      body {
+        height: -webkit-fill-available;
+      }
+    }
+
+    /* Root container full height */
+    #root {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Scroll container utilities */
+    .scroll-container {
+      -webkit-overflow-scrolling: touch;
+      overscroll-behavior: contain;
+    }
+
+    /* GPU acceleration for smooth animations */
+    * {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    /* Reduce motion for performance */
+    @media (max-width: 768px) {
+
+      .backdrop-blur-xl,
+      .backdrop-blur-3xl,
+      .backdrop-blur-md,
+      .backdrop-blur-\[40px\] {
+        backdrop-filter: blur(12px) !important;
+        -webkit-backdrop-filter: blur(12px) !important;
+      }
+
+      [style*="backdrop-filter"] {
+        backdrop-filter: blur(12px) !important;
+        -webkit-backdrop-filter: blur(12px) !important;
+      }
+    }
+
+    /* Smooth transitions globally */
+    .transition-colors,
+    .transition-all {
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* Force GPU layer for animated elements */
+    [style*="transform"] {
+      transform: translateZ(0);
+      -webkit-transform: translateZ(0);
+    }
+
+    /* Custom scrollbar just in case */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #0a0a0a;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #333;
+      border-radius: 3px;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
