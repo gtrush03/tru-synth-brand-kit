@@ -39,6 +39,16 @@ Contains logos, icons, hero imagery, the official brand kit PDF, a slim snapshot
 | ⚡ **Enterprise** | **VELOCITY** | Gold | Agentic Operations |
 | 🔩 **Assets** | **FOUNDRY** | Foundry | Plug & Play Resources — Claude skills, UI kits, agents |
 
+### Underneath: the runtime
+
+Beneath all four pillars runs **Jellyclaw** — our open-source, MIT-licensed Claude Code replacement. A transparent TypeScript agent runtime that engineers can read, audit, and embed. *"Same tools, same schema, your infra."*
+
+| Surface | What it is |
+|---|---|
+| **Jellyclaw** | The engine — CLI · TUI · HTTP server · library (npm / Homebrew / Docker) |
+| **Genie** | CLI agent dispatcher built on Jellyclaw |
+| **jelly-claw** | macOS video-calling app with in-call AI voice triggers |
+
 **Tagline:** *Your agents don't clock out.*
 
 ---

@@ -6,13 +6,13 @@ Paste the values below into the Claude "Set up your design system" form. Upload 
 
 ## 1️⃣ Company name and blurb
 
-**Grounded in the live site (`THE FOUNDATION OF INTELLIGENCE` hero + four-pillar dashboard):**
+**Grounded in the live site (`THE FOUNDATION OF INTELLIGENCE` hero + four-pillar dashboard) and the Jellyclaw runtime:**
 
 ```
-TRU SYNTH | Intelligent Solutions: we architect agentic operating systems for the next generation of autonomous enterprise — ALPHA for private capital, COMMAND for governments, VELOCITY for enterprise, and FOUNDRY for production-ready Claude skills, UI kits, and agents.
+TRU SYNTH | Intelligent Solutions: we architect agentic operating systems for the next generation of autonomous enterprise — ALPHA for private capital, COMMAND for governments, VELOCITY for enterprise, and FOUNDRY for production-ready Claude skills, UI kits, and agents. Underneath all four pillars runs Jellyclaw, our open-source, MIT-licensed Claude Code replacement — a transparent TypeScript agent runtime that engineers can read, audit, and embed in their own products. Jellyclaw powers Genie, our CLI agent dispatcher, and jelly-claw, our macOS video-calling app with in-call AI voice triggers. Same tools, same schema, your infrastructure. The tagline across everything we ship: your agents don't clock out.
 ```
 
-*(Alternative shorter blurbs in `03-COMPANY-BLURB-AND-VOICE.md`. Full page-copy source in `05-PAGE-COPY-SOURCE-OF-TRUTH.md`.)*
+*(Alternative shorter blurbs in `03-COMPANY-BLURB-AND-VOICE.md`. Full page-copy source in `05-PAGE-COPY-SOURCE-OF-TRUTH.md`. Jellyclaw context in `06-JELLYCLAW-CONTEXT.md`.)*
 
 ---
 

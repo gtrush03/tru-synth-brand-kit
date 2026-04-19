@@ -11,7 +11,12 @@ For pasting into Claude's design-system setup form.
 TRU SYNTH
 ```
 
-### Primary Blurb — grounded in live site copy (40 words)
+### Primary Blurb — full company (with Jellyclaw / Genie / jelly-claw)
+```
+TRU SYNTH | Intelligent Solutions: we architect agentic operating systems for the next generation of autonomous enterprise — ALPHA for private capital, COMMAND for governments, VELOCITY for enterprise, and FOUNDRY for production-ready Claude skills, UI kits, and agents. Underneath all four pillars runs Jellyclaw, our open-source, MIT-licensed Claude Code replacement — a transparent TypeScript agent runtime that engineers can read, audit, and embed in their own products. Jellyclaw powers Genie, our CLI agent dispatcher, and jelly-claw, our macOS video-calling app with in-call AI voice triggers. Same tools, same schema, your infrastructure. The tagline across everything we ship: your agents don't clock out.
+```
+
+### Primary Blurb — short form (pillars only, 40 words)
 ```
 TRU SYNTH | Intelligent Solutions: we architect agentic operating systems for the next generation of autonomous enterprise — ALPHA for private capital, COMMAND for governments, VELOCITY for enterprise, and FOUNDRY for production-ready Claude skills, UI kits, and agents.
 ```
