@@ -24,11 +24,22 @@ Contains logos, icons, hero imagery, the official brand kit PDF, a slim snapshot
 
 ## Company blurb
 
-> **TRU SYNTH**: autonomous agent infrastructure for enterprise operations, with production-ready UI kits and Claude skills available through The Foundry.
+> **TRU SYNTH | Intelligent Solutions** — we architect agentic operating systems for the next generation of autonomous enterprise.
+
+**Hero:** *THE FOUNDATION OF INTELLIGENCE.* Your one-stop shop for advanced AI solutions.
+
+**Dashboard:** *WE BUILD AGENTIC OPERATING SYSTEMS / TOOLS FOR…*
+
+### The four pillars (each is a named OS)
+
+| Pillar | System | Theme | OS for… |
+|---|---|---|---|
+| 🏛 **Institutions** | **ALPHA** | Dark | Capital Allocation |
+| 🌐 **Governments** | **COMMAND** | Light | Sovereign Operations |
+| ⚡ **Enterprise** | **VELOCITY** | Gold | Agentic Operations |
+| 🔩 **Assets** | **FOUNDRY** | Foundry | Plug & Play Resources — Claude skills, UI kits, agents |
 
 **Tagline:** *Your agents don't clock out.*
-
-**Surfaces:** trusynth.com · dashboards (ALPHA / COMMAND / VELOCITY) · simulations · The Foundry (UI kits + Claude skills) · LinkedIn Agent · enterprise/consumer apps.
 
 ---
 

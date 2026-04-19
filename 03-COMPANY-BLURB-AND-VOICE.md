@@ -11,14 +11,16 @@ For pasting into Claude's design-system setup form.
 TRU SYNTH
 ```
 
-### Primary Blurb (recommended — 21 words)
+### Primary Blurb — grounded in live site copy (40 words)
 ```
-TRU SYNTH: autonomous agent infrastructure for enterprise operations, with production-ready UI kits and Claude skills available through The Foundry.
+TRU SYNTH | Intelligent Solutions: we architect agentic operating systems for the next generation of autonomous enterprise — ALPHA for private capital, COMMAND for governments, VELOCITY for enterprise, and FOUNDRY for production-ready Claude skills, UI kits, and agents.
 ```
 
 ### Alternative Blurbs
-1. *(19 words)* `TRU SYNTH: B2B autonomous agent platform plus Foundry marketplace of UI kits, Claude skills, and agent templates for builders.`
-2. *(18 words)* `TRU SYNTH: enterprise-grade autonomous agents and agentic operating systems, packaged with production-ready Foundry kits and dashboards.`
+1. *(Hero-driven, 18 words)* `TRU SYNTH: the foundation of intelligence — agentic operating systems for institutions, governments, enterprise, and builders.`
+2. *(Three-product, 22 words)* `TRU SYNTH: B2B platform shipping TRU Spend (ontology-powered SaaS spend intelligence), Agentic OS (enterprise agent orchestration), and The Foundry (Claude skills and UI kits).`
+3. *(Tagline-led, 17 words)* `TRU SYNTH: your agents don't clock out. Agentic operating systems for capital, sovereignty, and commercial scale.`
+4. *(Short punchy, 14 words)* `TRU SYNTH: agentic operating systems — ALPHA, COMMAND, VELOCITY — plus The Foundry marketplace.`
 
 ### Notes Field (for "Any other notes?")
 ```

@@ -6,21 +6,23 @@ Paste the values below into the Claude "Set up your design system" form. Upload 
 
 ## 1️⃣ Company name and blurb
 
+**Grounded in the live site (`THE FOUNDATION OF INTELLIGENCE` hero + four-pillar dashboard):**
+
 ```
-TRU SYNTH: autonomous agent infrastructure for enterprise operations, with production-ready UI kits and Claude skills available through The Foundry.
+TRU SYNTH | Intelligent Solutions: we architect agentic operating systems for the next generation of autonomous enterprise — ALPHA for private capital, COMMAND for governments, VELOCITY for enterprise, and FOUNDRY for production-ready Claude skills, UI kits, and agents.
 ```
 
-*(Alternatives in `03-COMPANY-BLURB-AND-VOICE.md` if you want shorter.)*
+*(Alternative shorter blurbs in `03-COMPANY-BLURB-AND-VOICE.md`. Full page-copy source in `05-PAGE-COPY-SOURCE-OF-TRUTH.md`.)*
 
 ---
 
 ## 2️⃣ Link code on GitHub
 
-Not required — skip, or if you want one, use:
+✅ **This brand-kit repo:**
 ```
-https://github.com/gtrush03/genie-2.0
+https://github.com/gtrush03/tru-synth-brand-kit
 ```
-*(No public trusynth repo exists yet. The newest canonical codebase lives locally at `tru-synth cc version`, snapshot copied in step 3.)*
+Contains logos, hero imagery, brand-kit PDF + PSD source, and a slim code snapshot with signature components.
 
 ---
 
@@ -64,18 +66,25 @@ Fonts are Google Fonts / FontShare — **no file upload needed**; they load at r
 ## 6️⃣ Any other notes?
 
 ```
-TRU SYNTH's visual identity is "Obsidian & Gold": near-black backgrounds
-(#050505 → #0A0A0A) with signature champagne gold accents (#928466 highlight
-#E8E0CC) used sparingly — gold leaf, not gold paint. Typography is Inter for
-body/UI, JetBrains Mono for code and agent identifiers, and Satoshi for
-display headlines; headlines follow a two-line pattern with faded first line
-and solid second line. Glass morphism panels use backdrop-blur-xl (40px) with
-subtle white/gold borders and rounded-2xl corners. Motion is slow and
-deliberate — cubic-bezier(0.32, 0.72, 0, 1), no bounce, 0.3–0.6s durations.
-Voice is direct, confident, technical; treats AI complexity as already solved.
-Do: keep backgrounds dark, use gold as accent, favor institutional sophistication.
-Don't: use gradients as primary, neon colors, tech-startup blue, or bouncy
-animations. Museum-grade, nocturnal, inevitable.
+TRU SYNTH is "Intelligent Solutions" — we architect agentic operating systems
+for the autonomous enterprise. The site is organized as four pillars, each
+a named OS: ALPHA (OS for Capital Allocation, dark theme, private equity),
+COMMAND (OS for Sovereign Operations, light theme, governments), VELOCITY
+(OS for Agentic Operations, gold theme, enterprise), and FOUNDRY (plug-and-play
+UI kits, Claude skills, and agents). Visual identity is "Obsidian & Gold":
+near-black backgrounds (#050505 → #0A0A0A) with champagne gold accents
+(#928466 base, #E8E0CC highlight) used sparingly — gold leaf, not gold paint.
+Typography is Inter (body/UI, 400/600/700), Satoshi (display headlines), and
+JetBrains Mono (agent/system identifiers, technical overlays like
+AGENT_PROCESS // VDR_ANALYSIS). Signature patterns: two-line headlines
+(faded white/60 first line, solid white second line); glass morphism panels
+with backdrop-blur-xl (40px desktop, 12–16px mobile), border-[#928466]/40,
+rounded-2xl. Motion: cubic-bezier(0.32, 0.72, 0, 1), 0.3–0.6s, no bounce.
+Voice: declarative, confident, technical. "We architect the operating systems."
+"Agents that parse VDRs 24/7." Capabilities stated as fact, never as pitch.
+Do: ALL-CAPS headlines, dark backgrounds always, gold as accent, museum-grade
+institutional sophistication. Don't: neon, tech-startup blue, gradient floods,
+bouncy animations, marketing hedges.
 ```
 
 ---
